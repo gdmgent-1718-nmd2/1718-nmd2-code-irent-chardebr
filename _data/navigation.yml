@@ -1,0 +1,11 @@
+- title: home
+  url: /index.html
+
+- title: bestel
+  url: /bestel/bestel.html
+
+- title: aanbod
+  url: /aanbod/aanbod.html
+  
+- title: contact
+  url: /contact/contact.html

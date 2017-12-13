@@ -8,13 +8,21 @@
 // Color system
 //
 
-$indigo:  #6610f2;
+$indigo:  #f51818;
 $primary: $indigo;
+$titels: #008000;
+$tekst: #015f01;
+
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i|Petit+Formal+Script|Raleway:300,400,500,600,700');
 
-$font-family-base: Merriweather, serif;
+$font-family-base: 'Raleway', sans-serif;
+$font-family: 'Petit Formal Script', cursive;
+$font-family: 'Lobster Two', cursive;
+$font-size: 30px;
+
+

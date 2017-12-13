@@ -1,0 +1,74 @@
+ul.follow_order {
+    align: center;
+    
+}
+ul.follow_order li { 
+    width: 10%;
+    padding: 0px;
+    margin: 10px;
+    align-items: center;
+}
+
+.overzicht{
+    border-bottom: solid black 1pt;
+}
+
+/* overzicht pagina */
+.knop_aanpassen{
+    border: none;
+    background-color: white;
+    color: $titels;
+    font-size: 12px;
+    float: right;
+}
+.card{
+   position: relative;
+   margin-top: 50px;
+   margin-left: 30px;
+   border-color: $titels; 
+}
+
+.card-header{
+    background-color: rgba(106, 155, 115, 0.356);
+    color: rgb(26, 61, 3);
+    text-align: center;
+    
+}
+
+.list-group-item{
+    border-color: $tekst;
+}
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .item_bestel{ 
+    text-align: center;
+    font-size: 20pt;
+    }
+
+    ul.follow_order li { 
+        margin: 35px;
+    }
+
+    .card{
+        position: relative;
+        margin-top: 50px;
+        margin-left: 180px;
+     }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
