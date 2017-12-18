@@ -25,18 +25,28 @@ ul.follow_order li {
    position: relative;
    margin-top: 50px;
    margin-left: 30px;
-   border-color: $titels; 
+   border-color: $titels;
+   padding-left: 0px;
+   padding-right: 0px;
 }
 
 .card-header{
     background-color: rgba(106, 155, 115, 0.356);
     color: rgb(26, 61, 3);
     text-align: center;
-    
 }
 
 .list-group-item{
     border-color: $tekst;
+}
+
+/* betaalpagina*/
+.tabel_betaal {
+    border: solid black 1px;
+}
+
+.button.after{
+
 }
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
