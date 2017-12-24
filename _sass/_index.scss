@@ -9,15 +9,40 @@
     font-size: 10px;
 }
 
+.lampjes {
+    padding-bottom: 30px;
+}
+
+.namen_kerstballen {
+    text-align: center;
+    font-size: 10px;
+    color: $tekst;
+
+}
+
+.functie {
+    font-size: 9px;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  
+@media (min-width: 576px) {
+    
      }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) { 
+        .lampjes {
+            padding-bottom: 50px;
+        }
+        .namen_kerstballen {
+        font-size: 20px;
+        }
 
+        .functie {
+            font-size: 12px;
+        }
      }
     
     // Large devices (desktops, 992px and up)
@@ -28,7 +53,24 @@
         .tekst-index{
             font-size: 20px;
         }
+        .lampjes {
+            padding-bottom: 100px;
+        }
+
+        .namen_kerstballen {
+            text-align: center;
+            font-size: 20px;
+            color: $tekst;
+        
+        }
+        .functie {
+            font-size: 16px;
+        }
      }
     
     // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) { }
+    @media (min-width: 1200px) { 
+        .lampjes {
+            padding-bottom: 100px;
+        }
+    }

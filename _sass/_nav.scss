@@ -14,20 +14,15 @@
 
 }
 .logo img {
-  height: 90%;
+  height: 110%;
   width: auto;
   align-self: flex-end;
 }
-
-
-
 
 @media (min-width: 768px) {
     /* NAV*/
       .navbar {
         text-align:center;
-        
-        
       }
 
       .navbar-header {
@@ -38,7 +33,6 @@
       .navbar-nav {
         float: none;
         margin: 0 auto;
-        
       }
 
       .navbar-nav-brand {

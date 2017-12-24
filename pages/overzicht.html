@@ -5,19 +5,34 @@ permalink: bestel/overzicht
 # ─────────────────────
 title: overzicht 
 ---
+<div class="col-12">
+                <ul class="nav follow_order">
+                        <li class="nav-item item_bestel stap_1">
+                                <a class="schuiven"> gegevens </a> 
+                        </li>
+                        <li class="nav-item item_bestel stap_2">
+                                <a class="schuiven vet"> overzicht </a>
+                        </li>
+                        <li class="nav-item item_bestel stap_3">
+                                <a class="schuiven"> betalen </a>
+                        </li>
+                </ul>
+        </div>
 
 <div class="card col-12 col-lg-8"  style="width: 20rem;">
         <div class="card-header">
             Overzicht bestelling
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Christmas lunch  <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn btn-primary knop_aanpassen">aanpassen</button></a></li>
-              <li class="list-group-item">31 januari 2018 <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn btn-primary knop_aanpassen">aanpassen</button></a></li>
-              <li class="list-group-item">10 personen <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn btn-primary knop_aanpassen">aanpassen</button></a></li>
-              <li class="list-group-item">Melanie Heageman <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn btn-primary knop_aanpassen">aanpassen</button></a></li>
+              <li class="list-group-item">Christmas lunch  <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn knop_aanpassen">aanpassen</button></a></li>
+              <li class="list-group-item">31 januari 2018 <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn knop_aanpassen">aanpassen</button></a></li>
+              <li class="list-group-item">10 personen <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn knop_aanpassen">aanpassen</button></a></li>
+              <li class="list-group-item">Melanie Heageman <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn knop_aanpassen">aanpassen</button></a></li>
             </ul>
           </div>
 
-<div class="col-12">
-<a href="{{ site.baseurl }}/bestel/betaling.html"><button type="submit" class="btn btn-primary">afrekenen</button></a>
+ 
+  <div class="col-12 text-center">
+        <a href="{{ site.baseurl }}/bestel/bestel.html"><button type="submit" class="btn  btn_betaal">Vorig</button></a>
+        <a href="{{ site.baseurl }}/bestel/betaling.html"><button type="submit" class="btn  btn_betaal">betaal</button></a>
 </div>

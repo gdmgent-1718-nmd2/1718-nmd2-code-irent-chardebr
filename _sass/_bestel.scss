@@ -1,16 +1,46 @@
-ul.follow_order {
-    align: center;
+// ul.follow_order {
+//     align: center;
     
+// }
+// ul.follow_order li { 
+//     width: 7%;
+//     padding: 0px;
+//     margin: 10px;
+//     align-items: center;
+// }
+
+ul.follow_order {
+    display: flex;
+    justify-content: space-between;
 }
-ul.follow_order li { 
-    width: 10%;
-    padding: 0px;
-    margin: 10px;
-    align-items: center;
+
+ul.follow_order li.item_bestel {
+    padding: 6px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    font-family : Petit Formal Script;
 }
+.item_bestel.stap_1 {
+    background-image: url(../images/stappen/stap_1.png);
+}
+.item_bestel.stap_2 {
+    background-image: url(../images/stappen/stap_2.png);
+}
+
+.item_bestel.stap_3 {
+    background-image: url(../images/stappen/stap_3.png);
+}
+
+
 
 .overzicht{
     border-bottom: solid black 1pt;
+}
+
+.vet{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* overzicht pagina */
@@ -28,12 +58,14 @@ ul.follow_order li {
    border-color: $titels;
    padding-left: 0px;
    padding-right: 0px;
+   margin-right: 20px;
 }
 
 .card-header{
     background-color: rgba(106, 155, 115, 0.356);
     color: rgb(26, 61, 3);
     text-align: center;
+    
 }
 
 .list-group-item{
@@ -41,13 +73,28 @@ ul.follow_order li {
 }
 
 /* betaalpagina*/
+.betaal_keuze{
+    margin-left: 20px;
+}
+
 .tabel_betaal {
     border: solid black 1px;
 }
 
-.button.after{
 
+
+// knoppen tijdens het betaalproces, onderaan/
+
+.btn_betaal{
+    border: none;
+    background-color: white;
+    color: $titels;
+    font-size: 20px;
+    font-family : Petit Formal Script;
+    color: $titels;
+    color: $knoppen;
 }
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -76,6 +123,22 @@ ul.follow_order li {
         margin-top: 50px;
         margin-left: 180px;
      }
+
+     ul.follow_order li.item_bestel {
+        padding-left: 80px;
+        background-size: 80px;
+        padding:30px;
+        margin-right: 10px;
+    }
+
+    .schuiven{
+        margin-left: 70px;
+       }
+
+       .vet{
+        font-weight: bold;
+        font-size: 30px;
+    }
  }
 
 // Extra large devices (large desktops, 1200px and up)

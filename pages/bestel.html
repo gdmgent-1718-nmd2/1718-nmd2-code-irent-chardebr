@@ -6,51 +6,36 @@ permalink: bestel/bestel
 title: bestel 
 ---
 
-
         <div class="col-12">
                 <ul class="nav follow_order">
-                        <li class="nav-item img_stappen">
-                                <img src="{{ site.baseurl }}/assets/images/stappen/stap_1.png" class="img-fluid" alt="Responsive image">
+                        <li class="nav-item item_bestel stap_1">
+                                <a class="schuiven vet"> gegevens </a> 
                         </li>
-                        <li class="nav-item item_bestel">
-                                <a> gegevens </a> 
+                        <li class="nav-item item_bestel stap_2">
+                                <a class="schuiven"> overzicht </a>
                         </li>
-                        <li class="nav-item  img_stappen">
-                                <img src="{{ site.baseurl }}/assets/images/stappen/stap_2.png" class="img-fluid" alt="Responsive image">
-                        </li>
-                        <li class="nav-item item_bestel">
-                                <a> overzicht </a>
-                        </li>
-                        <li class="nav-item img_stappen">
-                                <img src="{{ site.baseurl }}/assets/images/stappen/stap_3.png" class="img-fluid" alt="Responsive image">
-                        </li>
-                        <li class="nav-item item_bestel">
-                                <a> betalen </a>
+                        <li class="nav-item item_bestel stap_3">
+                                <a class="schuiven"> betalen </a>
                         </li>
                 </ul>
-                <div>
-                        
-                        
-                        
-                        
-                        </div>
         </div>
+
         <div class="col-12">
                 <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Datum</label>
-                          <select class="form-control">
-                                <option>Selecteer een datum</option>
-                                <option>24 december 2018</option>
-                                <option>25 december 2018</option>
-                                <option>31 december 2018 </option>
-                                <option>1 januari 2019</option>
-                                <option>2 januari 2019 </option>
-                              </select>
-                        </div>
+                        <div class="form-group is-invalid">
+                                <label for="validationServer01">Datum</label>
+                                        <select class="form-control">
+                                                 <option>Selecteer een datum</option>
+                                                 <option>24 december 2018</option>
+                                                <option>25 december 2018</option>
+                                                <option>31 december 2018 </option>
+                                                <option>1 januari 2019</option>
+                                                <option>2 januari 2019 </option>
+                                        </select>
+        </div>
 
-                        <div class="form-group">
-                                <label for="exampleInputEmail1">Type maaltijd</label>
+                        <div class="form-group is-invalid">
+                                <label for="validationServer02">Type maaltijd</label>
                                 <select class="form-control">
                                         <option>Selecteer een formule</option>
                                         <option>Christmas lunch</option>
@@ -58,22 +43,26 @@ title: bestel
                                         <option>Christmas diner </option>
                                       </select>
                               </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Naam</label>
-                          <input  class="form-control" id="exampleInputPassword1" placeholder="">
+                        <div class="form-group is-invalid">
+                          <label for="validationServer03">Naam</label>
+                          <input  type="text" class="form-control" id="validationServer01" placeholder="">
                         </div>
-                        <div class="form-group">
-                             <label for="exampleInputPassword1">Aantal personen</label>
-                            <input class="form-control" id="exampleInputPassword1" >
+                        <div class="form-group is-invalid">
+                             <label for="validationServer03">Aantal personen</label>
+                            <input type="text" class="form-control" id="validationServer02" >
                             
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Email</label>
-                           <input type="email" class="form-control" id="exampleInputPassword1" placeholder="">
-                       </div>
-                      </form>
-                      <a href="{{ site.baseurl }}/bestel/overzicht.html"><button type="submit" class="btn btn-primary"> overzicht</button></a>           
-        </div>
+                        <div class="form-group is-invalid">
+                            <label for="validationServer04">Email</label>
+                           <input type="text" class="form-control" id="validationServer03" placeholder="">
+                       </div>                    
+                </div>
+
+                        </form>
+        <div class="col-12 text-center">
+                        <a href="{{ site.baseurl }}/bestel/overzicht.html"><button type="submit" class="btn btn_betaal">Overzicht</button></a>
+                        
+                        </div>
 
        
 
