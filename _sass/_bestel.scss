@@ -40,7 +40,7 @@ ul.follow_order li.item_bestel {
 
 .vet{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* overzicht pagina */
@@ -54,11 +54,10 @@ ul.follow_order li.item_bestel {
 .card{
    position: relative;
    margin-top: 50px;
-   margin-left: 30px;
+   
    border-color: $titels;
    padding-left: 0px;
    padding-right: 0px;
-   margin-right: 20px;
 }
 
 .card-header{
@@ -81,7 +80,18 @@ ul.follow_order li.item_bestel {
     border: solid black 1px;
 }
 
+.input[type=radio] {
+    background-color: $titels;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    &:checked {
+        background-color: $knoppen; 
+    }
 
+}
 
 // knoppen tijdens het betaalproces, onderaan/
 
@@ -135,10 +145,10 @@ ul.follow_order li.item_bestel {
         margin-left: 70px;
        }
 
-       .vet{
-        font-weight: bold;
-        font-size: 30px;
-    }
+    .vet{
+    font-weight: bold;
+    font-size: 30px;
+}
  }
 
 // Extra large devices (large desktops, 1200px and up)
