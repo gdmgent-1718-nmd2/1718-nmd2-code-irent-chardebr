@@ -32,8 +32,6 @@ ul.follow_order li.item_bestel {
     background-image: url(../images/stappen/stap_3.png);
 }
 
-
-
 .overzicht{
     border-bottom: solid black 1pt;
 }
@@ -54,10 +52,12 @@ ul.follow_order li.item_bestel {
 .card{
    position: relative;
    margin-top: 50px;
-   
    border-color: $titels;
    padding-left: 0px;
    padding-right: 0px;
+   margin-bottom: 20px;
+   
+   
 }
 
 .card-header{
@@ -105,6 +105,14 @@ ul.follow_order li.item_bestel {
     color: $knoppen;
 }
 
+.custom-control-input{
+    background-color: red;
+    color: red;
+}
+
+.custom-control-indicator{
+    top: 1rem;
+}
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

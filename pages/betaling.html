@@ -25,22 +25,26 @@ title: betaling
                   Betaalmethode
                     </div>
                     <ul class="list-group list-group-flush">
-                      <label class="form-check-label list-group-item betaal_keuze">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        Maestro
-                      </label>
-                      <label class="form-check-label list-group-item betaal_keuze">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        Visa
-                      </label>
-                      <label class="form-check-label list-group-item betaal_keuze">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        Paypal
-                      </label>
-                      <label class="form-check-label list-group-item betaal_keuze">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        bancontact
-                      </label>
+                      <label class="custom-control custom-radio list-group-item betaal_keuze">
+                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Maestro</span>
+                        </label>
+                      <label class="custom-control custom-radio list-group-item betaal_keuze">
+                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Visa</span>
+                        </label>
+                      <label class="custom-control custom-radio list-group-item betaal_keuze">
+                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Paypal</span>
+                        </label>
+                      <label class="custom-control custom-radio list-group-item betaal_keuze">
+                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Bancontact</span>
+                        </label>
 
                     </ul>
                 </div>
@@ -69,8 +73,7 @@ title: betaling
           Bedankt voor uw aankoop, u ontvangt zodadelijk een email.
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn_betaal" data-dismiss="modal">Sluit</button>
-          <a href="{{ site.baseurl }}/index.html"><button type="button" class="btn btn_betaal">home</button></a>
+          <a href="{{ site.baseurl }}/index.html"><button type="button" class="btn btn_betaal">terug naar home</button></a>
         </div>
       </div>
     </div>
