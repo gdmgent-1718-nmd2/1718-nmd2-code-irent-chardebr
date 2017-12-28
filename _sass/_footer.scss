@@ -12,6 +12,7 @@ margin-bottom: 80px;
 
 .footer_tekst{
   font-size: 12px;
+  font-family : Petit Formal Script;
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -23,7 +24,14 @@ margin-bottom: 80px;
    }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) { 
+    .footer_tekst{
+      font-size: 14px;
+      font-family : Petit Formal Script;
+    }
 
+    .navbar-nav .nav-link {
+      padding-right: 550px;
+    }
    }
   
   // Large devices (desktops, 992px and up)

@@ -41,6 +41,7 @@ ul.follow_order li.item_bestel {
     font-size: 15px;
 }
 
+
 /* overzicht pagina */
 .knop_aanpassen{
     border: none;
@@ -123,7 +124,36 @@ ul.follow_order li.item_bestel {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-
+    .item_bestel{ 
+        text-align: center;
+        font-size: 15pt;
+        }
+    
+        ul.follow_order li { 
+            margin: 0px;
+        }
+    
+        .card{
+            position: relative;
+            margin-top: 50px;
+            
+         }
+    
+         ul.follow_order li.item_bestel {
+            padding-left: 80px;
+            background-size: 60px;
+            padding: 35px;
+            margin-right: 0px;
+        }
+    
+        .schuiven{
+            margin-left: 50px;
+           }
+    
+        .vet{
+        font-weight: bold;
+        font-size: 18px;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 

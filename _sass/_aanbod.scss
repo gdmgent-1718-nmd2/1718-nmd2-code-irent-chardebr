@@ -44,6 +44,55 @@
      }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) { 
+        .drinken{
+            float: right;
+            height: auto;
+            width: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .tekst_foto{
+            padding-top: 120px;
+        }
+
+        .tekst_kamer_foto{
+            padding-top: 0px;
+        }
+
+        .btn {
+            padding: 0.375rem 0.75rem;
+        }
+
+        .lampjes_aanbod{
+            width: 0px;
+            height: 0px;
+        }
+        
+        .btn-primary {
+            background-color: white;
+            border-color: $knoppen;
+            color: $knoppen;
+            font-size: 16px;
+        }
+
+        .knop_links_mobile{
+            float: right;
+        }
+        
+        .knop_rechts_mobile{
+            float: left;
+        }
+
+        .titel-index2{
+            font-family : Petit Formal Script;
+            color: $titels;
+            font-size: 20px;
+        }
+        .tekst-index2{
+            color: $titels;
+            font-size: 14px;
+        }
 
      }
     
